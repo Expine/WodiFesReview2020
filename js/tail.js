@@ -83,3 +83,6 @@ Array.prototype.slice.call(document.querySelectorAll(".bad_button")).forEach(it 
 });
 toggle_bad();
 toggle_bad();
+
+// 画像をリサイズ
+document.querySelectorAll("img").forEach(it => it.width = 320);
