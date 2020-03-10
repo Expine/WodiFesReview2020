@@ -22,6 +22,7 @@ head.querySelectorAll("meta").forEach(it => {
 });
 head.insertAdjacentHTML(`beforeend`, `<link rel="canonical" href="${url}" />`);
 // メタタグ挿入
+head.insertAdjacentHTML(`beforeend`, `<meta name="google-site-verification" content="H2aKgTg3cr1Fd0mLSQncx4VVb2Xw2JKTiqfZeRLJjPA" />`);
 head.insertAdjacentHTML(`beforeend`, `<meta property="og:type" content="article">`);
 head.insertAdjacentHTML(`beforeend`, `<meta property="og:url" content="${url}">`);
 head.insertAdjacentHTML(`beforeend`, `<meta property="og:image" content="${image}">`);
