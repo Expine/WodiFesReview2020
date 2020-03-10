@@ -14,7 +14,7 @@ head.querySelectorAll("meta").forEach(it => {
         case "og:title": it.content = titleWithName; break;
         case "og:locale": it.content = "ja_JP"; break;
         case "og:description": it.content = disc; break;
-        case "og:site_name": it.content = "ウディコンレビュー"; break;
+        case "og:site_name": it.content = "ウディフェス感想"; break;
     }
     switch(it.name) {
         case "description": it.content = disc; break;
