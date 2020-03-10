@@ -1,6 +1,6 @@
-const title = "第11回ウディコン全作品レビュー";
+const title = "ウディフェス2020の感想";
 const titleWithName = `${title} | narratology`;
-const disc = "このレビューは個人の独断と偏見で書かれた、第11回ウディコン全作品に対するレビューです。";
+const disc = "ウディフェス2020の感想をだらだらと書き連ねています";
 const url = "https://expine.github.io/WodiconReview2019/";
 const image = "https://trap.jp/content/images/2018/08/wall.png";
 const head = document.getElementsByTagName("head")[0];
@@ -28,8 +28,8 @@ head.insertAdjacentHTML(`beforeend`, `<meta property="og:image" content="${image
 head.insertAdjacentHTML(`beforeend`, `<meta property="og:image:width" content="1280">`);
 head.insertAdjacentHTML(`beforeend`, `<meta property="og:image:height" content="400">`);
 head.insertAdjacentHTML(`beforeend`, `<meta property="article:tag" content="ウディタ">`);
-head.insertAdjacentHTML(`beforeend`, `<meta property="article:tag" content="ウディコン">`);
-head.insertAdjacentHTML(`beforeend`, `<meta property="article:tag" content="レビュー">`);
+head.insertAdjacentHTML(`beforeend`, `<meta property="article:tag" content="ウディフェス">`);
+head.insertAdjacentHTML(`beforeend`, `<meta property="article:tag" content="感想">`);
 // Twitter対応
 head.insertAdjacentHTML(`beforeend`, `<meta name="twitter:card" content="summary">`);
 head.insertAdjacentHTML(`beforeend`, `<meta name="twitter:site" content="@_narratology">`);
@@ -40,5 +40,5 @@ head.insertAdjacentHTML(`beforeend`, `<meta name="twitter:image" content="${imag
 head.insertAdjacentHTML(`beforeend`, `<meta name="twitter:label1" content="Written by">`);
 head.insertAdjacentHTML(`beforeend`, `<meta name="twitter:data1" content="narratology">`);
 head.insertAdjacentHTML(`beforeend`, `<meta name="twitter:label2" content="Filed under">`);
-head.insertAdjacentHTML(`beforeend`, `<meta name="twitter:data2" content="ウディタ, ウディコン, レビュー">`);
+head.insertAdjacentHTML(`beforeend`, `<meta name="twitter:data2" content="ウディタ, ウディフェス, 感想">`);
 head.insertAdjacentHTML(`beforeend`, `<meta name="twitter:creator" content="@_narratology">`);
